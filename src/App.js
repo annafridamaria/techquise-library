@@ -1,9 +1,12 @@
 import React from 'react'
+import { TopMenu } from 'lib/TopMenu'
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <TopMenu 
+      title="Techquise Components Library"
+      />
     </div>
   )
 }
