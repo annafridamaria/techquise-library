@@ -46,7 +46,7 @@ const BtnWrap = styled.div`
   justify-content: flex-end;
 `;
 
-export const Dialog = ({ title, message }) => {
+export const Dialog = ({ title }) => {
     return (
         <Bg>
             <Container>
@@ -54,7 +54,7 @@ export const Dialog = ({ title, message }) => {
                 <Message>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim.
-        </Message>
+                </Message>
                 <BtnWrap>
                     <Button>ACTION 1</Button>
                     <Button>ACTION 2</Button>
