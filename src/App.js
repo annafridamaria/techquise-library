@@ -1,6 +1,8 @@
 import React from 'react'
 import { TopMenu } from 'lib/TopMenu'
-import { Dialog } from "./Dialog";
+import { Dialog } from "lib/Dialog"
+import { ChipsCard } from "lib/FilterChips/ChipsCard"
+
 
 export const App = () => {
   return (
@@ -9,6 +11,7 @@ export const App = () => {
         title="Techquise Components Library"
       />
       {/* <Dialog title="Dialog header" /> */}
+      <ChipsCard />
     </div>
   )
 }
